@@ -1,11 +1,10 @@
 package edu.up.cs301.pig;
 
-import edu.up.cs301.game.GameFramework.GamePlayer;
+import edu.up.cs301.game.GameFramework.infoMessage.GameState;
+import edu.up.cs301.game.GameFramework.players.GamePlayer;
 import edu.up.cs301.game.GameFramework.LocalGame;
 import edu.up.cs301.game.GameFramework.actionMessage.GameAction;
-import edu.up.cs301.game.GameFramework.infoMessage.GameState;
-
-import android.util.Log;
+import edu.up.cs301.pig.infoMessage.PigState;
 
 /**
  * class PigLocalGame controls the play of the game
@@ -20,6 +19,8 @@ public class PigLocalGame extends LocalGame {
      */
     public PigLocalGame() {
         //TODO  You will implement this constructor
+        super();
+        super.state = new PigState();
     }
 
     /**
@@ -61,6 +62,13 @@ public class PigLocalGame extends LocalGame {
     protected String checkIfGameOver() {
         //TODO  You will implement this method
         return null;
+    }
+
+    //TESTING
+
+    public int whoWon(){
+        //TODO  You will implement this method
+        return 0;
     }
 
 }// class PigLocalGame

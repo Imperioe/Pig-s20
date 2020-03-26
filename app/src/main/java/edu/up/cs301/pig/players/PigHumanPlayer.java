@@ -1,12 +1,10 @@
-package edu.up.cs301.pig;
+package edu.up.cs301.pig.players;
 
-import edu.up.cs301.game.GameFramework.GameHumanPlayer;
+import edu.up.cs301.game.GameFramework.players.GameHumanPlayer;
 import edu.up.cs301.game.GameFramework.GameMainActivity;
 import edu.up.cs301.game.R;
 import edu.up.cs301.game.GameFramework.infoMessage.GameInfo;
 
-import android.graphics.Color;
-import android.graphics.drawable.Drawable;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
@@ -22,7 +20,7 @@ import android.view.View.OnClickListener;
  */
 public class PigHumanPlayer extends GameHumanPlayer implements OnClickListener {
 
-	/* instance variables */
+    /* instance variables */
 
     // These variables will reference widgets that will be modified during play
     private TextView    playerScoreTextView = null;

@@ -1,9 +1,7 @@
-package edu.up.cs301.pig;
+package edu.up.cs301.pig.players;
 
-import edu.up.cs301.game.GameFramework.GameComputerPlayer;
-import edu.up.cs301.game.GameFramework.actionMessage.GameAction;
+import edu.up.cs301.game.GameFramework.players.GameComputerPlayer;
 import edu.up.cs301.game.GameFramework.infoMessage.GameInfo;
-import edu.up.cs301.game.GameFramework.utilities.Tickable;
 
 /**
  * An AI for Pig
