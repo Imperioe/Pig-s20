@@ -18,6 +18,7 @@ public class PigState extends GameState {
 
     public boolean equals(Object object) {
         //TODO: You will implement this method
-        return true;
+        if(object instanceof PigState) return true;
+        return false;
     }
 }
