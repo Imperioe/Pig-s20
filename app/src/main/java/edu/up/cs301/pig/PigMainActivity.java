@@ -21,7 +21,7 @@ import edu.up.cs301.pig.players.PigHumanPlayer;
  * @version February 2016
  */
 public class PigMainActivity extends GameMainActivity {
-    //TAg for logging
+    //Tag for logging
     private static final String TAG = "PigMainActivity";
     // the port number that this game will use when playing over the network
     public static final int PORT_NUMBER = 2278;

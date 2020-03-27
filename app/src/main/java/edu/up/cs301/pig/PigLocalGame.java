@@ -13,7 +13,8 @@ import edu.up.cs301.pig.infoMessage.PigState;
  * @version February 2016
  */
 public class PigLocalGame extends LocalGame {
-
+    //Tag for logging
+    private static final String TAG = "PigLocalGame";
     /**
      * This ctor creates a new game state
      */

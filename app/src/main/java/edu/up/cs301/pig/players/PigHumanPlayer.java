@@ -19,7 +19,8 @@ import android.view.View.OnClickListener;
  * @version February 2016
  */
 public class PigHumanPlayer extends GameHumanPlayer implements OnClickListener {
-
+    //Tag for logging
+    private static final String TAG = "PigHumanPlayer";
     /* instance variables */
 
     // These variables will reference widgets that will be modified during play

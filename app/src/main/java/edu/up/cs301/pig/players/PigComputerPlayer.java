@@ -10,7 +10,8 @@ import edu.up.cs301.game.GameFramework.infoMessage.GameInfo;
  * @version August 2015
  */
 public class PigComputerPlayer extends GameComputerPlayer {
-
+    //Tag for logging
+    private static final String TAG = "PigComputerPlayer";
     /**
      * ctor does nothing extra
      */
