@@ -23,6 +23,12 @@ public class PigLocalGame extends LocalGame {
         super.state = new PigState();
     }
 
+    public PigLocalGame(PigState pigState) {
+        //TODO  You will implement this constructor
+        super();
+        super.state = new PigState(pigState);
+    }
+
     /**
      * can the player with the given id take an action right now?
      */

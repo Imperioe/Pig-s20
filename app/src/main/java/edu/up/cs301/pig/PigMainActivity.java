@@ -68,7 +68,7 @@ public class PigMainActivity extends GameMainActivity {
     @Override
     public LocalGame createLocalGame(GameState gameState) {
         if(gameState == null) return new PigLocalGame();
-        return new PigLocalGame();
+        return new PigLocalGame((PigState) gameState);
     }
 
     /**
